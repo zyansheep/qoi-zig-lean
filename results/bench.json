@@ -1,0 +1,342 @@
+{
+ "edgecase": {
+  "width": 256,
+  "height": 64,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 18084,
+    "median_ns": 18545,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 883.4726341331896
+   },
+   "zig-simple": {
+    "min_ns": 14337,
+    "median_ns": 14527,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 1127.8309354994149
+   },
+   "zig-fast": {
+    "min_ns": 5270,
+    "median_ns": 5390,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 3039.703153988868
+   },
+   "lean-fast": {
+    "min_ns": 12994,
+    "median_ns": 13275,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 1234.1996233521656
+   }
+  }
+ },
+ "qoi_logo": {
+  "width": 448,
+  "height": 220,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 98934,
+    "median_ns": 106969,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 921.3884396413914
+   },
+   "zig-simple": {
+    "min_ns": 60392,
+    "median_ns": 61494,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 1602.7579926496894
+   },
+   "zig-fast": {
+    "min_ns": 18905,
+    "median_ns": 19346,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 5094.59319756022
+   },
+   "lean-fast": {
+    "min_ns": 136134,
+    "median_ns": 141102,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 698.5017930291561
+   }
+  }
+ },
+ "testcard": {
+  "width": 256,
+  "height": 256,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 82123,
+    "median_ns": 88375,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 741.5671852899576
+   },
+   "zig-simple": {
+    "min_ns": 80640,
+    "median_ns": 81512,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 804.0043183825695
+   },
+   "zig-fast": {
+    "min_ns": 35626,
+    "median_ns": 36417,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 1799.599088337864
+   },
+   "lean-fast": {
+    "min_ns": 138017,
+    "median_ns": 141042,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 464.6559180953191
+   }
+  }
+ },
+ "testcard_rgba": {
+  "width": 256,
+  "height": 256,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 84447,
+    "median_ns": 87383,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 749.9856951580971
+   },
+   "zig-simple": {
+    "min_ns": 78746,
+    "median_ns": 81352,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 805.5856033041597
+   },
+   "zig-fast": {
+    "min_ns": 33873,
+    "median_ns": 35396,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 1851.508645044638
+   },
+   "lean-fast": {
+    "min_ns": 134520,
+    "median_ns": 140382,
+    "iters": 2000,
+    "hash_ok": true,
+    "mpx_s": 466.840478123976
+   }
+  }
+ },
+ "dice": {
+  "width": 800,
+  "height": 600,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 913321,
+    "median_ns": 966980,
+    "iters": 1300,
+    "hash_ok": true,
+    "mpx_s": 496.39082504291713
+   },
+   "zig-simple": {
+    "min_ns": 813024,
+    "median_ns": 840625,
+    "iters": 1274,
+    "hash_ok": true,
+    "mpx_s": 571.003717472119
+   },
+   "zig-fast": {
+    "min_ns": 285722,
+    "median_ns": 303815,
+    "iters": 1993,
+    "hash_ok": true,
+    "mpx_s": 1579.9088260948274
+   },
+   "lean-fast": {
+    "min_ns": 928759,
+    "median_ns": 973602,
+    "iters": 1783,
+    "hash_ok": true,
+    "mpx_s": 493.0145993948246
+   }
+  }
+ },
+ "kodim10": {
+  "width": 512,
+  "height": 768,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 2195337,
+    "median_ns": 2262662,
+    "iters": 712,
+    "hash_ok": true,
+    "mpx_s": 173.78468370441541
+   },
+   "zig-simple": {
+    "min_ns": 2489615,
+    "median_ns": 2562931,
+    "iters": 640,
+    "hash_ok": true,
+    "mpx_s": 153.42434111569918
+   },
+   "zig-fast": {
+    "min_ns": 796893,
+    "median_ns": 832099,
+    "iters": 1445,
+    "hash_ok": true,
+    "mpx_s": 472.5591546198229
+   },
+   "lean-fast": {
+    "min_ns": 2642549,
+    "median_ns": 2752594,
+    "iters": 679,
+    "hash_ok": true,
+    "mpx_s": 142.85288713119334
+   }
+  }
+ },
+ "kodim23": {
+  "width": 768,
+  "height": 512,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 2195046,
+    "median_ns": 2275075,
+    "iters": 699,
+    "hash_ok": true,
+    "mpx_s": 172.83649989560783
+   },
+   "zig-simple": {
+    "min_ns": 2452626,
+    "median_ns": 2536872,
+    "iters": 647,
+    "hash_ok": true,
+    "mpx_s": 155.00033111643
+   },
+   "zig-fast": {
+    "min_ns": 788227,
+    "median_ns": 825998,
+    "iters": 1330,
+    "hash_ok": true,
+    "mpx_s": 476.0495788125395
+   },
+   "lean-fast": {
+    "min_ns": 2642990,
+    "median_ns": 2746493,
+    "iters": 722,
+    "hash_ok": true,
+    "mpx_s": 143.17021743729185
+   }
+  }
+ },
+ "wikipedia_008": {
+  "width": 1152,
+  "height": 858,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 6296762,
+    "median_ns": 6445810,
+    "iters": 249,
+    "hash_ok": true,
+    "mpx_s": 153.34240382512053
+   },
+   "zig-simple": {
+    "min_ns": 6571203,
+    "median_ns": 6729948,
+    "iters": 243,
+    "hash_ok": true,
+    "mpx_s": 146.86829675355588
+   },
+   "zig-fast": {
+    "min_ns": 2090842,
+    "median_ns": 2118203,
+    "iters": 545,
+    "hash_ok": true,
+    "mpx_s": 466.6294967951608
+   },
+   "lean-fast": {
+    "min_ns": 7874369,
+    "median_ns": 8005893,
+    "iters": 251,
+    "hash_ok": true,
+    "mpx_s": 123.46105549999231
+   }
+  }
+ },
+ "synth_flat": {
+  "width": 4096,
+  "height": 4096,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 46799983,
+    "median_ns": 47738410,
+    "iters": 42,
+    "hash_ok": true,
+    "mpx_s": 351.44061144893595
+   },
+   "zig-simple": {
+    "min_ns": 43517924,
+    "median_ns": 43979963,
+    "iters": 37,
+    "hash_ok": true,
+    "mpx_s": 381.47408173126473
+   },
+   "zig-fast": {
+    "min_ns": 33822223,
+    "median_ns": 34334046,
+    "iters": 58,
+    "hash_ok": true,
+    "mpx_s": 488.6466337232728
+   },
+   "lean-fast": {
+    "min_ns": 33266660,
+    "median_ns": 35402956,
+    "iters": 54,
+    "hash_ok": true,
+    "mpx_s": 473.8930839560403
+   }
+  }
+ },
+ "synth_photo": {
+  "width": 4096,
+  "height": 4096,
+  "decoders": {
+   "c-qoi.h": {
+    "min_ns": 126069513,
+    "median_ns": 127802198,
+    "iters": 15,
+    "hash_ok": true,
+    "mpx_s": 131.27486273749375
+   },
+   "zig-simple": {
+    "min_ns": 138126358,
+    "median_ns": 139297358,
+    "iters": 14,
+    "hash_ok": true,
+    "mpx_s": 120.44173874424811
+   },
+   "zig-fast": {
+    "min_ns": 65174179,
+    "median_ns": 68508737,
+    "iters": 29,
+    "hash_ok": true,
+    "mpx_s": 244.89162601260625
+   },
+   "lean-fast": {
+    "min_ns": 125868568,
+    "median_ns": 126570074,
+    "iters": 15,
+    "hash_ok": true,
+    "mpx_s": 132.5527865299344
+   }
+  }
+ }
+}

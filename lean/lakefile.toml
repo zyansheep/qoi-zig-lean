@@ -1,0 +1,16 @@
+name = "qoi"
+defaultTargets = ["qoi-lean-spec", "qoi-lean-fast"]
+
+[[lean_lib]]
+name = "QOI"
+moreLeancArgs = ["-O3", "-march=znver3"]
+
+[[lean_exe]]
+name = "qoi-lean-spec"
+root = "MainSpec"
+moreLeancArgs = ["-O3", "-march=znver3"]
+
+[[lean_exe]]
+name = "qoi-lean-fast"
+root = "MainFast"
+moreLeancArgs = ["-O3", "-march=znver3"]

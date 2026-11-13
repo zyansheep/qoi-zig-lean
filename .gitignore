@@ -1,0 +1,7 @@
+build/
+zig/zig-out/
+zig/.zig-cache/
+lean/.lake/
+testdata/
+results/raw/
+__pycache__/
